@@ -23,5 +23,9 @@ def solve(dividend, divisor):
     return -quotient
   return quotient
 
-print(solve(7, -3))
-print(solve(100,1))
+print(solve(10,3)) # expect 3
+print(solve(7, -3)) # expect -2
+print(solve(100,1)) # expect 100
+print(solve(0,1)) # expect 0
+print(solve(1,1)) # expect 1
+print(solve(1,2)) # expect 0
